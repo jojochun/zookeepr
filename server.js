@@ -17,6 +17,6 @@ app.use(express.static('public'));
 
 const { animals } = require('./data/animals');
 
-router.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
